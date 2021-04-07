@@ -209,7 +209,6 @@ function draw() {
 
   imageMode(CENTER)
   image(fuelImg, canW/1.5, canH/16, canW/30, canH/35)
-  heartImg.resize(200, 200);
   image(heartImg, canW/25, canH/24)
   
   playerFuel -= 0.5;
